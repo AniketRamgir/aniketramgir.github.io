@@ -1,6 +1,5 @@
 # aniketramgir.github.io
-Results-driven Data Analyst with 3 years’ Experience in data analysis and business intelligence. Proficient in Power BI, SQL, Python &amp; Advanced Excel with a strong ability to extract insights, develop Interactive Report and dashboards. Passionate about leveraging data to solve complex problems and contribute to business growth.
-
+# Improtant Notice for my Repository
 ## 🚫 View-Only License Notice
 
 This project is shared for viewing and evaluation purposes only.
