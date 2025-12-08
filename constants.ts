@@ -9,7 +9,7 @@ export const PROFILE = {
   location: "Pune, India",
   email: "aniket15ramgir@gmail.com",
   socials: {
-    github: "https://github.com/AniketRamgir/aniketramgir.github.io",
+    github: "https://github.com/AniketRamgir",
     linkedin: "https://linkedin.com/in/ankitramgir",
     twitter: "https://twitter.com"
   }
@@ -29,7 +29,7 @@ export const SKILLS: Skill[] = [
 export const PROJECTS: Project[] = [
   {
     id: "1",
-    title: "E-Commerce Sales Data Analysis using Power BI",
+    title: "Sales Data Analysis using Power BI",
     description: "Developed an end-to-end Power BI analytics solution with a star schema, advanced DAX, forecasting, and RLS for streamlined sales and profit reporting.",
     tags: ["Power BI", "DAX", "Data Modeling", "Forecasting"],
     imageUrl: PROJECT_IMAGES.project1,
@@ -37,78 +37,81 @@ export const PROJECTS: Project[] = [
   },
   {
     id: "2",
-    title: "Sports Apparel Customer Behavior Analysis using SQL",
+    title: "Sportswear Customer Behavior Analysis using SQL",
     description: "Worked with a large MySQL e-commerce database to prepare high-quality data and develop analytical SQL queries that revealed key trends in products, customers, and returns.",
     tags: ["SQL", "MySQL", "Data Analysis", "E-commerce"],
     imageUrl: PROJECT_IMAGES.project2,
-    githubUrl: "https://github.com/AniketRamgir/aniketramgir.github.io/tree/main/Projects/SQL%20Projects/Decathlon%20Online%20Ecommerce%20Sports%20SQL%20Data%20Analysis"
+    githubUrl: "https://github.com/AniketRamgir/aniketramgir.github.io/tree/main/Projects/SQL%20Projects"
   },
   {
     id: "3",
-    title: "Bank Customer Segmentation RFM and Loan Risk Analysis",
-    description: "Developed a Power BI analytics solution with a star schema, advanced DAX, and segmentation dashboards to uncover customer patterns and loan risk insights for strategic decision-making.",
-    tags: ["Power BI", "RFM Analysis", "Risk Assessment", "Banking"],
+    title: "Bank Customer Segmentation and Loan Risk",
+    description: "Analyzed customer data to identify segmentation clusters and assess loan risk factors using Python libraries and statistical methods.",
+    tags: ["Python", "Pandas", "Scikit-learn", "Financial Analysis"],
     imageUrl: PROJECT_IMAGES.project3,
-    githubUrl: "https://github.com/AniketRamgir/aniketramgir.github.io/tree/main/Projects/Power%20BI%20Projects/Banking"
+    githubUrl: "https://github.com/AniketRamgir/aniketramgir.github.io"
   },
   {
     id: "4",
-    title: "Walmart Store Inventory Tracker Dashboard Using Advanced Excel",
-    description: "Built an advanced Excel inventory dashboard using PivotTables, Power Query, KPIs, and conditional formatting to track stock levels and highlight low-inventory items.",
-    tags: ["Advanced Excel", "Power Query", "PivotTables", "KPIs"],
+    title: "Walmart Store Inventory Tracker",
+    description: "Created a comprehensive Excel-based inventory tracking system to monitor stock levels, predict shortages, and optimize supply chain operations.",
+    tags: ["Advanced Excel", "VBA", "Dashboard", "Inventory Management"],
     imageUrl: PROJECT_IMAGES.project4,
-    githubUrl: "https://github.com/AniketRamgir/aniketramgir.github.io/tree/main/Projects/Advanced%20Excel%20Projects"
+    githubUrl: "https://github.com/AniketRamgir/aniketramgir.github.io"
   }
 ];
 
 export const CERTIFICATES: Certificate[] = [
-  // --- SECTION 1: BADGES ---
+  // --- BADGES ---
   {
     id: "b1",
     title: "Python for Data Science",
     issuer: "IBM",
     date: "2023",
-    imageUrl: CREDENTIAL_IMAGES.badge,
     credentialUrl: "https://www.credly.com/badges/4f0c9cde-29b7-4cf2-89af-e81f4e952ad4/public_url",
     category: "badge"
   },
 
-  // --- SECTION 2: CERTIFICATES ---
+  // --- CERTIFICATES ---
   {
     id: "c1",
-    title: "Excel Skills for Business",
-    issuer: "OneRoadmap",
+    title: "SQL and Relational Databases 101",
+    issuer: "IBM",
     date: "2023",
-    imageUrl: CREDENTIAL_IMAGES.certificate,
     credentialUrl: "https://oneroadmap.io/skills/excel/certificate/CERT-ED808D06",
     category: "certificate"
   },
   {
     id: "c2",
-    title: "SQL and Relational Databases 101",
+    title: "Python for Data Science",
     issuer: "IBM",
     date: "2023",
-    imageUrl: CREDENTIAL_IMAGES.certificate,
     credentialUrl: "https://courses.cognitiveclass.ai/certificates/fce04ccbc0f1441d8524c1b9648a57f5",
     category: "certificate"
   },
   {
     id: "c3",
-    title: "Python for Data Science",
+    title: "Data Analysis with Python",
     issuer: "IBM",
     date: "2023",
-    imageUrl: CREDENTIAL_IMAGES.certificate,
     credentialUrl: "https://courses.cognitiveclass.ai/certificates/38f79099d2564499a5e4055196e81a48",
     category: "certificate"
   },
 
-  // --- SECTION 3: TRAININGS ---
+  // --- TRAININGS ---
+  {
+    id: "t0",
+    title: "Power BI - Business Intelligence for Beginners to Advance",
+    issuer: "Udemy",
+    date: "2023",
+    credentialUrl: "https://www.udemy.com/certificate/UC-1d34b2de-d083-4bee-ab6b-d90e3997f2a8/",
+    category: "training"
+  },
   {
     id: "t1",
     title: "SQL for Data Science",
     issuer: "Simplilearn",
     date: "2023",
-    imageUrl: CREDENTIAL_IMAGES.training,
     credentialUrl: "https://simpli-web.app.link/e/OG8R3zSHVYb",
     category: "training"
   },
@@ -117,7 +120,6 @@ export const CERTIFICATES: Certificate[] = [
     title: "Business Intelligence using Excel Basics Tutorial",
     issuer: "Simplilearn",
     date: "2023",
-    imageUrl: CREDENTIAL_IMAGES.training,
     credentialUrl: "https://simpli-web.app.link/e/upI2rNItPYb",
     category: "training"
   },
@@ -126,8 +128,55 @@ export const CERTIFICATES: Certificate[] = [
     title: "Python Libraries for Data Science",
     issuer: "Simplilearn",
     date: "2023",
-    imageUrl: CREDENTIAL_IMAGES.training,
     credentialUrl: "https://simpli-web.app.link/e/3xoBLFG7TYb",
+    category: "training"
+  },
+  {
+    id: "t4",
+    title: "Machine Learning using Python",
+    issuer: "Simplilearn",
+    date: "2023",
+    credentialUrl: "https://simpli-web.app.link/e/RSv7pHmATYb",
+    category: "training"
+  },
+  {
+    id: "t5",
+    title: "Excel Dashboard for Beginners",
+    issuer: "Simplilearn",
+    date: "2023",
+    credentialUrl: "https://simpli-web.app.link/e/8LMLV6wtPYb",
+    category: "training"
+  },
+  {
+    id: "t6",
+    title: "Programming with Python 3.X",
+    issuer: "Simplilearn",
+    date: "2023",
+    credentialUrl: "https://simpli-web.app.link/e/V2Fq5zdATYb",
+    category: "training"
+  },
+  {
+    id: "t7",
+    title: "Python for Data Analysis",
+    issuer: "Simplilearn",
+    date: "2023",
+    credentialUrl: "https://simpli-web.app.link/e/F0Q1CxhATYb",
+    category: "training"
+  },
+  {
+    id: "t8",
+    title: "Data Analysis using Excel",
+    issuer: "UpGrad",
+    date: "2023",
+    credentialUrl: "https://drive.google.com/file/d/1rDpibcJL8Q_fg0tzqQ-3ofup8GpKxSt8/view?usp=sharing",
+    category: "training"
+  },
+  {
+    id: "t9",
+    title: "Gen AI Mastermind",
+    issuer: "Outskill",
+    date: "2023",
+    credentialUrl: "https://drive.google.com/file/d/13we4UVa0lmEJObzI8650MDzmHc0Gf_rW/view?usp=sharing",
     category: "training"
   }
 ];

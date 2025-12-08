@@ -67,7 +67,7 @@ const Certificates: React.FC = () => {
   const trainings = CERTIFICATES.filter(c => c.category === 'training');
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12">
       <div className="mb-12">
         <h2 className="text-3xl font-bold text-slate-100 mb-4">Professional Credentials</h2>
         <p className="text-slate-400 max-w-2xl text-lg leading-relaxed">

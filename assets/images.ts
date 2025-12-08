@@ -1,15 +1,16 @@
 
+
 // Centralized image assets for the project
 // Using high-quality free stock images from Unsplash that match the project themes.
 
 export const PROJECT_IMAGES = {
-  // Project 1: E-Commerce Sales Data Analysis using Power BI
-  // Visual: Analytics dashboard/Laptop displaying charts
-  project1: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop",
+  // Project 1: Sales Data Analysis using Power BI
+  // Visual: Shopping Cart representing Sales/Commerce
+  project1: "https://images.unsplash.com/photo-1557821552-17105176677c?q=80&w=2089&auto=format&fit=crop",
   
-  // Project 2: Sports Apparel Customer Behavior Analysis using SQL
-  // Visual: Sports apparel store / Sneakers
-  project2: "https://images.unsplash.com/photo-1556906781-9a412961c28c?q=80&w=2070&auto=format&fit=crop",
+  // Project 2: Sportswear Customer Behavior Analysis using SQL
+  // Visual: People in gym wearing sportswear
+  project2: "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=2070&auto=format&fit=crop",
   
   // Project 3: Bank Customer Segmentation and Loan Risk
   // Visual: Financial data / Banking concept

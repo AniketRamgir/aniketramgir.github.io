@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { PROFILE, SKILLS } from '../constants';
 import { Github, Linkedin, Mail, MapPin, ArrowRight } from 'lucide-react';
@@ -9,14 +10,14 @@ interface HeroProps {
 
 const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-24">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-24">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         <div className="space-y-8">
           <div className="space-y-4">
             <h2 className="text-indigo-400 font-medium tracking-wide text-sm uppercase">
               Portfolio
             </h2>
-            <h1 className="text-4xl md:text-6xl font-bold text-slate-100 tracking-tight leading-tight">
+            <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold text-slate-100 tracking-tight leading-tight">
               Hi, I'm <span className="text-indigo-500">{PROFILE.name}</span>.
               <br />
               <span className="text-slate-400">{PROFILE.title}</span>

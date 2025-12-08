@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { ViewState } from '../types';
 import { Layers, Award, User, Terminal } from 'lucide-react';
@@ -45,19 +46,19 @@ const Navbar: React.FC<NavbarProps> = ({ currentView, onNavigate }) => {
               ))}
             </div>
           </div>
-          
-          {/* Mobile menu button could go here, omitting for brevity in this specific requested scope but keeping layout responsive */}
         </div>
       </div>
       
-      {/* Mobile Nav (Simple version) */}
-      <div className="md:hidden border-t border-slate-800 flex justify-around p-2 bg-slate-900">
+      {/* Mobile Nav */}
+      <div className="md:hidden border-t border-slate-800 flex justify-around py-3 px-2 bg-slate-900/95">
         {navItems.map((item) => (
           <button
             key={item.id}
             onClick={() => onNavigate(item.id)}
-            className={`flex flex-col items-center gap-1 p-2 rounded-md text-xs font-medium ${
-              currentView === item.id ? 'text-indigo-400' : 'text-slate-400'
+            className={`flex flex-col items-center gap-1 p-2 rounded-lg text-xs font-medium transition-colors ${
+              currentView === item.id 
+              ? 'text-indigo-400 bg-indigo-500/10' 
+              : 'text-slate-400 active:text-slate-200'
             }`}
           >
             <item.icon className="w-5 h-5" />

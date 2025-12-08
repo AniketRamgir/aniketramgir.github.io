@@ -15,7 +15,7 @@ const Projects: React.FC = () => {
   };
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12">
       <div className="mb-12">
         <h2 className="text-3xl font-bold text-slate-100 mb-4">Featured Projects</h2>
         <p className="text-slate-400 max-w-2xl">
@@ -58,14 +58,6 @@ const Projects: React.FC = () => {
               <h3 className="text-xl font-bold text-slate-100 mb-3 group-hover:text-indigo-400 transition-colors leading-tight">
                 {project.title}
               </h3>
-              
-              <div className="flex flex-wrap gap-2 mb-4">
-                {project.tags.map(tag => (
-                  <span key={tag} className="px-2.5 py-0.5 bg-indigo-500/10 text-indigo-300 text-xs font-medium rounded-full border border-indigo-500/20">
-                    {tag}
-                  </span>
-                ))}
-              </div>
 
               <p className="text-slate-400 text-sm mb-6 leading-relaxed line-clamp-3">
                 {project.description}
