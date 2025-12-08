@@ -1,101 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Aniket Ramgir's Portfolio</title>
-    <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="css/style.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aniket's Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+        background-color: #0f172a; /* Slate 900 */
+        color: #f8fafc; /* Slate 50 */
+      }
+      /* Custom Scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #1e293b;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #475569;
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #64748b;
+      }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/",
+    "vite": "https://aistudiocdn.com/vite@^7.2.7",
+    "@vitejs/plugin-react": "https://aistudiocdn.com/@vitejs/plugin-react@^5.1.2",
+    "react/": "https://aistudiocdn.com/react@^19.2.1/",
+    "react": "https://aistudiocdn.com/react@^19.2.1",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.556.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
 </head>
-<body>
-  <header>
-    <h1>Aniket Ramgir</h1>
-    <p>Data Analyst | Microsoft Power BI | SQL | Python | Advanced Microsoft Excel | Data Enthusiast</p>
-  </header>
-
-  <section class="projects">
-    <h2>My Projects</h2>
-    
-    <div class="project">
-      <img src="images/project1.jpg" alt="Project 1" />
-      <div>
-        <h3>Amazon Sales Revenue & Customer Behavior Analysis Report (Ecommerce)</h3>
-        <ul>
-            <li> Architected a Star Schema Model in Power BI (Fact Sales + 7 Dimensions) by importing 1M+ records from SQL Server,
-                 ensuring a scalable framework for real-time sales, profit, and customer analytics. </li>
-            <li> Developed an interactive PowerBI report featuring 15+ visuals including KPI cards, line charts, waterfall charts, bar
-                    charts, table with conditional formatting, map visuals, and Top10 Products charts to track $822M Total Revenue,
-                    $637M Profit and Profit Margin:63.71%, empowering cross-functional stakeholders with on-demand insights.  </li>
-            <li>Engineered 20+ Advanced DAX Measures (AvgOrderValue, OneTimeCustomers, Profit, ProfitMargin%,
-                RepeatPurchaseRate) and dynamic Slicers for Date Ranges, Product Categories and States, reducing ad-hoc analysis  time by 30% </li>
-            <li> Uncovered Critical Insights:  Profit Trend analysis across key categories, revealing Electronics profit growth from
-                $230M in 2023 to $407M in 2024, driving reallocation of resources toward high-growth segments.   </li>
-            <li>Constructed a Monthly Sales Trend visual, highlighting peak revenue months (e.g., December:$500M, July:$450M),
-                which informed the timing of major promotions. </li>
-            <li> Implemented Total Sales Forecast up to 2026 (projecting $1B+ in sales), supporting strategic planning and budget
-                allocation with data-driven projections. </li>
-            <li>Implemented dynamic Row-Level Security (RLS) in Power BI to restrict user access based on customer region and
-                product category, ensuring secure data segmentation for regional managers and category owners, resulting in
-                improved data governance and compliance. </li>
-            <li>Delivered Actionable Strategies for inventory optimization, targeted regional campaigns, and promotional planning,
-                improving Marketing ROI by 25% through data-backed Black Friday and Cyber Monday discount strategies. </li>
-        </ul>
-        <a href="https://github.com/AniketRamgir/aniketramgir.github.io/tree/main/Projects/Power%20BI%20Projects/E-Commerce" target="_blank">View on GitHub</a>
-      </div>
-    </div>
-
-    <div class="project">
-      <img src="images/project2.jpg" alt="Project 2" />
-      <div>
-        <h3> Bank Customer Segmentation RFM and Loan Risk Analysis Report (BFSI)</h3>
-        <ul>
-              <li>Architected a Star schema model in Power BI (Fact Loan + 6 dimensions) and imported 1M+ records from SQL Server
-                  to establish a scalable, high-performance data model for loan and customer analytics. </li>
-              <li>Developed Interactive Report for (RFM Analysis, Product Performance, Loan Risk, Customer Segmentation) with 20+
-                  visuals covering $163B loan portfolio, product mix, and Loan defaulter rate trends for enhanced decision-making.</li>
-              <li> Engineered 15+ advanced DAX measures (ex. RFM Score, Avg Recency, Defaulter Rate, Avg Interest, Outstanding
-                    Balance, etc.) and dynamic slicers to enable customer segmentation & risk scoring. </li>
-              <li>Uncovered high-impact insights: Champions segment comprises 54 % of customers (Avg Monetary $2.01 M), flagged
-                  75 K defaulted loans for targeted mitigation and revealed income-segment performance gaps.</li>
-              <li>Delivered data-driven results for prioritizing at-risk portfolios and informing targeted marketing campaigns by age
-                  group, income segment, marital status and job classification.</li>
-</ul>
-
-        <a href="https://github.com/AniketRamgir/aniketramgir.github.io/tree/main/Projects/Power%20BI%20Projects/Banking" target="_blank">View on GitHub</a>
-      </div>
-    </div>
-
-    <div class="project">
-      <img src="images/project3.jpg" alt="Project 3" />
-      <div>
-        <h3>Decathlon Online Ecommerce Sports Apprel Data Analysis Using SQL</h3>
-         <ul>
-              <li>Leveraged 1M+ row MySQL database Dataset for an online sports apparel e-commerce company to simulate e-commerce operations, enabling realistic data analysis scenarios. </li>
-              <li> Cleaned and transformed raw customer, order, and product data using advanced SQL to ensure high data quality and consistency. </li>
-              <li>Developed analytical queries using JOINs, subqueries, GROUP BY, and window functions to uncover sales trends and product insights.</li>
-              <li>Generated actionable results on top categories, customer behavior, and return rates, supporting data-driven business decisions.</li>
-          </ul>
-        <a href="https://github.com/AniketRamgir/aniketramgir.github.io/tree/main/Projects/SQL%20Projects/Decathlon%20Online%20Ecommerce%20Sports%20SQL%20Data%20Analysis" target="_blank">View on GitHub</a>
-      </div>
-    </div>
-
-    <div class="project">
-      <img src="images/project4.jpg" alt="Project 4" />
-      <div>
-        <h3>Walmart Store Inventory Tracker Dashboard Using Advanced Excel (Retail)</h3>
-        <ul>
-              <li>Designed an interactive Walmart Inventory Dashboard in Excel using PivotTables, Charts, and Power Query to streamline real-time stock visibility for over 100,000 inventory records.</li>
-              <li>Developed 4 KPI metrics including Total Inventory Value, Low Stock, and Out-of-Stock Items using formulas like SUMPRODUCT, COUNTIFS, and COUNTA, helping identify restocking needs proactively. </li>
-              <li>Applied VLOOKUP across sheets to dynamically retrieve stock levels from the master table, ensuring consistency and traceability in calculations.</li>
-              <li>Utilized Conditional Formatting to flag critical inventory thresholds (e.g., stock below reorder level), enabling faster issue detection.</li>
-          </ul>
-        <a href="https://github.com/AniketRamgir/aniketramgir.github.io/tree/main/Projects/Advanced%20Excel%20Projects" target="_blank">View on GitHub</a>
-      </div>
-    </div>
-  </section>
-
-  <footer>
-    <p>© 2025 Aniket Ramgir | <a href="mailto:aniket.ramgir15@gmail.com">Contact Me</a></p>
-  </footer>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="./index.tsx"></script>
+  <script type="module" src="/index.tsx"></script>
 </body>
 </html>
