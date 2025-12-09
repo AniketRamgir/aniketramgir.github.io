@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Projects from './components/Projects';
@@ -8,12 +8,43 @@ import { ViewState } from './types';
 const App: React.FC = () => {
   const [currentView, setCurrentView] = useState<ViewState>('home');
 
+  // Handle browser back button navigation
+  useEffect(() => {
+    // Set the initial history state so we have a base to return to
+    if (!window.history.state) {
+      window.history.replaceState({ view: 'home' }, '', '');
+    }
+
+    const handlePopState = (event: PopStateEvent) => {
+      if (event.state && event.state.view) {
+        setCurrentView(event.state.view);
+      } else {
+        // Fallback to home if history state is missing
+        setCurrentView('home');
+      }
+    };
+
+    window.addEventListener('popstate', handlePopState);
+    return () => window.removeEventListener('popstate', handlePopState);
+  }, []);
+
+  const handleNavigate = (view: ViewState) => {
+    if (view === currentView) return;
+    
+    // Push new state to browser history
+    window.history.pushState({ view }, '', '');
+    setCurrentView(view);
+    
+    // Scroll to top when changing views
+    window.scrollTo(0, 0);
+  };
+
   const renderContent = () => {
     switch (currentView) {
       case 'home':
         return (
           <div className="animate-in fade-in duration-500">
-            <Hero onNavigate={setCurrentView} />
+            <Hero onNavigate={handleNavigate} />
           </div>
         );
       case 'projects':
@@ -29,13 +60,13 @@ const App: React.FC = () => {
           </div>
         );
       default:
-        return <Hero onNavigate={setCurrentView} />;
+        return <Hero onNavigate={handleNavigate} />;
     }
   };
 
   return (
     <div className="min-h-screen bg-slate-950 text-slate-200 font-sans selection:bg-indigo-500/30">
-      <Navbar currentView={currentView} onNavigate={setCurrentView} />
+      <Navbar currentView={currentView} onNavigate={handleNavigate} />
       
       <main className="relative z-0">
         {/* Decorative background elements */}

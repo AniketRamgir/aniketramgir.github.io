@@ -23,7 +23,8 @@ export const PROJECT_IMAGES = {
 
 export const CREDENTIAL_IMAGES = {
   // Visual for Digital Badges (Abstract/Tech)
-  badge: "https://images.unsplash.com/photo-1605711285791-0219e80e43a3?q=80&w=2069&auto=format&fit=crop",
+  // Updated to use the direct Google Drive link format
+  badge: "https://drive.google.com/uc?export=view&id=19NS8IIgGEvxAjpvoHqwc4BDW58GTWZX5",
   
   // Visual for Formal Certificates (Document/Classic)
   certificate: "https://images.unsplash.com/photo-1589330694653-4a8b243aaf96?q=80&w=2070&auto=format&fit=crop",

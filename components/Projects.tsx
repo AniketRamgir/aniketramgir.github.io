@@ -46,6 +46,7 @@ const Projects: React.FC = () => {
                   src={project.imageUrl} 
                   alt={project.title} 
                   onError={() => handleImageError(project.id)}
+                  referrerPolicy="no-referrer"
                   className="w-full h-full object-cover object-top transform group-hover:scale-105 transition-transform duration-700"
                   loading="lazy"
                 />
