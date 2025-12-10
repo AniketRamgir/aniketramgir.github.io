@@ -49,7 +49,7 @@ export const PROJECTS: Project[] = [
   },
   {
     id: "2",
-    title: "Sportswear Customer Behavior Analysis using SQL",
+    title: "Sportswear Brand Customer Behavior Analysis using SQL",
     description: "Worked with a large MySQL e-commerce database to prepare high-quality data and develop analytical SQL queries that revealed key trends in products, customers, and returns.",
     tags: ["SQL", "MySQL", "Data Analysis", "E-commerce"],
     imageUrl: PROJECT_IMAGES.project2,
@@ -58,16 +58,16 @@ export const PROJECTS: Project[] = [
   {
     id: "3",
     title: "Bank Customer Segmentation and Loan Risk",
-    description: "Analyzed customer data to identify segmentation clusters and assess loan risk factors using Python libraries and statistical methods.",
+    description: "Analyzed customer data to identify segmentation clusters and assess loan risk factors.",
     tags: ["Python", "Pandas", "Scikit-learn", "Financial Analysis"],
     imageUrl: PROJECT_IMAGES.project3,
     githubUrl: "https://github.com/AniketRamgir/aniketramgir.github.io"
   },
   {
     id: "4",
-    title: "Walmart Store Inventory Tracker",
+    title: "Walmart Store Inventory Tracker Dashboard",
     description: "Created a comprehensive Excel-based inventory tracking system to monitor stock levels, predict shortages, and optimize supply chain operations.",
-    tags: ["Advanced Excel", "VBA", "Dashboard", "Inventory Management"],
+    tags: ["Advanced Excel", "charts", "Dashboard", "Inventory Management"],
     imageUrl: PROJECT_IMAGES.project4,
     githubUrl: "https://github.com/AniketRamgir/aniketramgir.github.io"
   }
@@ -146,9 +146,9 @@ export const CERTIFICATES: Certificate[] = [
     title: "Cisco Certified Data Analytics Essentials",
     issuer: "Cisco",
     date: "2025",
-    credentialUrl: "https://drive.google.com/file/d/19NS8IIgGEvxAjpvoHqwc4BDW58GTWZX5/view?usp=sharing", // Add verification link
+    credentialUrl: "Inprogress", // Add verification link
     category: "certificate",
-    imageUrl: driveImage("https://drive.google.com/file/d/19NS8IIgGEvxAjpvoHqwc4BDW58GTWZX5/view?usp=sharing") // Paste Google Drive link here
+    imageUrl: driveImage("Inprogress") // Paste Google Drive link here
   },
 
   // --- TRAININGS ---
@@ -247,8 +247,8 @@ export const CERTIFICATES: Certificate[] = [
     title: "Tableau for Data Analysis",
     issuer: "Intellipat",
     date: "2025",
-    credentialUrl: "https://drive.google.com/file/d/13we4UVa0lmEJObzI8650MDzmHc0Gf_rW/view?usp=sharing",
+    credentialUrl: "Inprogress",
     category: "training",
-    imageUrl: driveImage("https://drive.google.com/file/d/13we4UVa0lmEJObzI8650MDzmHc0Gf_rW/view?usp=sharing")
+    imageUrl: driveImage("Inprogress")
   }
 ];
