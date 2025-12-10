@@ -141,6 +141,15 @@ export const CERTIFICATES: Certificate[] = [
     category: "certificate",
     imageUrl: driveImage("https://drive.google.com/file/d/19NS8IIgGEvxAjpvoHqwc4BDW58GTWZX5/view?usp=sharing") // Paste Google Drive link here
   },
+  {
+    id: "c6",
+    title: "Cisco Certified Data Analytics Essentials",
+    issuer: "Cisco",
+    date: "2025",
+    credentialUrl: "https://drive.google.com/file/d/19NS8IIgGEvxAjpvoHqwc4BDW58GTWZX5/view?usp=sharing", // Add verification link
+    category: "certificate",
+    imageUrl: driveImage("https://drive.google.com/file/d/19NS8IIgGEvxAjpvoHqwc4BDW58GTWZX5/view?usp=sharing") // Paste Google Drive link here
+  },
 
   // --- TRAININGS ---
   {
@@ -228,6 +237,15 @@ export const CERTIFICATES: Certificate[] = [
     id: "t9",
     title: "Gen AI Mastermind",
     issuer: "Outskill",
+    date: "2025",
+    credentialUrl: "https://drive.google.com/file/d/13we4UVa0lmEJObzI8650MDzmHc0Gf_rW/view?usp=sharing",
+    category: "training",
+    imageUrl: driveImage("https://drive.google.com/file/d/13we4UVa0lmEJObzI8650MDzmHc0Gf_rW/view?usp=sharing")
+  },
+  {
+    id: "t10",
+    title: "Tableau for Data Analysis",
+    issuer: "Intellipat",
     date: "2025",
     credentialUrl: "https://drive.google.com/file/d/13we4UVa0lmEJObzI8650MDzmHc0Gf_rW/view?usp=sharing",
     category: "training",
