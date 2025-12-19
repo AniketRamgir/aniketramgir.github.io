@@ -244,11 +244,11 @@ export const CERTIFICATES: Certificate[] = [
   },
   {
     id: "t10",
-    title: "Tableau for Data Analysis",
-    issuer: "Intellipat",
+    title: "Tableau for Data Science",
+    issuer: "scaler",
     date: "2025",
-    credentialUrl: "Inprogress",
+    credentialUrl: "https://drive.google.com/file/d/11i8G2-iMZ9LPp_bU0ayum8ILtT8usjWI/view?usp=sharing",
     category: "training",
-    imageUrl: driveImage("Inprogress")
+    imageUrl: driveImage("https://drive.google.com/file/d/11i8G2-iMZ9LPp_bU0ayum8ILtT8usjWI/view?usp=sharing")
   }
 ];
