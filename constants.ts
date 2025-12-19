@@ -237,18 +237,27 @@ export const CERTIFICATES: Certificate[] = [
     id: "t9",
     title: "Gen AI Mastermind",
     issuer: "Outskill",
-    date: "2025",
-    credentialUrl: "https://drive.google.com/file/d/13we4UVa0lmEJObzI8650MDzmHc0Gf_rW/view?usp=sharing",
+    date: "November 2025",
+    credentialUrl: "https://drive.google.com/file/d/1Ovtoyc9WoXrpiON9QpqWjzWeTQvhLBLP/view?usp=sharing",
     category: "training",
-    imageUrl: driveImage("https://drive.google.com/file/d/13we4UVa0lmEJObzI8650MDzmHc0Gf_rW/view?usp=sharing")
+    imageUrl: driveImage("https://drive.google.com/file/d/1Ovtoyc9WoXrpiON9QpqWjzWeTQvhLBLP/view?usp=sharing")
   },
   {
     id: "t10",
     title: "Tableau for Data Science",
-    issuer: "scaler",
-    date: "2025",
+    issuer: "scaler Masterclass",
+    date: "19 December 2025",
     credentialUrl: "https://drive.google.com/file/d/11i8G2-iMZ9LPp_bU0ayum8ILtT8usjWI/view?usp=sharing",
     category: "training",
     imageUrl: driveImage("https://drive.google.com/file/d/11i8G2-iMZ9LPp_bU0ayum8ILtT8usjWI/view?usp=sharing")
+  },
+  {
+    id: "t11",
+    title: "Gen AI Engineering Mastermind",
+    issuer: "Outskill",
+    date: "November 2025",
+    credentialUrl: "https://drive.google.com/file/d/1xS5s9FDX3SuJlIokunz1Jyk8YdVC4icU/view?usp=sharing",
+    category: "training",
+    imageUrl: driveImage("https://drive.google.com/file/d/1xS5s9FDX3SuJlIokunz1Jyk8YdVC4icU/view?usp=sharing")
   }
 ];
