@@ -172,8 +172,8 @@ export const CERTIFICATES: Certificate[] = [
   },
   {
     id: "t2",
-    title: "Business Intelligence using Excel Basics Tutorial",
-    issuer: "Simplilearn",
+    title: "Business Intelligence using Excel",
+    issuer: "Microsoft",
     date: "2025",
     credentialUrl: "https://simpli-web.app.link/e/upI2rNItPYb",
     category: "training",
@@ -200,7 +200,7 @@ export const CERTIFICATES: Certificate[] = [
   {
     id: "t5",
     title: "Excel Dashboard for Beginners",
-    issuer: "Simplilearn",
+    issuer: "Microsoft",
     date: "2025",
     credentialUrl: "https://simpli-web.app.link/e/8LMLV6wtPYb",
     category: "training",
@@ -217,12 +217,12 @@ export const CERTIFICATES: Certificate[] = [
   },
   {
     id: "t7",
-    title: "Python for Data Analysis",
-    issuer: "Simplilearn",
+    title: "Tableau Foundations",
+    issuer: "Intellipaat",
     date: "2025",
-    credentialUrl: "https://simpli-web.app.link/e/F0Q1CxhATYb",
+    credentialUrl: "https://intellipaat.com/academy/certificate-link/?Yz0xODY4JnU9MzA1MDUwJmV4dD0x",
     category: "training",
-    imageUrl: driveImage("https://drive.google.com/file/d/1oDEc6n9IJcVcKno2161VOYbBMF80JKwq/view?usp=sharing")
+    imageUrl: driveImage("https://drive.google.com/file/d/1_RlpBlOX0Nm_T8TzuMyHrvdrAeTfY4QH/view?usp=sharing")
   },
   {
     id: "t8",
@@ -259,5 +259,14 @@ export const CERTIFICATES: Certificate[] = [
     credentialUrl: "https://drive.google.com/file/d/1xS5s9FDX3SuJlIokunz1Jyk8YdVC4icU/view?usp=sharing",
     category: "training",
     imageUrl: driveImage("https://drive.google.com/file/d/1xS5s9FDX3SuJlIokunz1Jyk8YdVC4icU/view?usp=sharing")
+  },
+  {
+    id: "t12",
+    title: "Python for Data Analysis",
+    issuer: "Simplilearn",
+    date: "2025",
+    credentialUrl: "https://simpli-web.app.link/e/F0Q1CxhATYb",
+    category: "training",
+    imageUrl: driveImage("https://drive.google.com/file/d/1oDEc6n9IJcVcKno2161VOYbBMF80JKwq/view?usp=sharing")
   }
 ];
